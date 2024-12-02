@@ -3,7 +3,7 @@
 /**
  * Plugin Name:     Filter Custom Class
  * Plugin URI:      https://github.com/lucaskennde/skills-wordpress
- * Description:     update to all tags <p> and add custom class
+ * Description:     Este plugin permite adicionar uma classe CSS personalizada a todas as tags <p> (parágrafos) dentro do conteúdo de um post ou página do WordPress. Isso é útil quando você deseja aplicar um estilo específico aos parágrafos em todo o conteúdo, sem precisar alterar manualmente o HTML.
  * Author:          LUCAS KENNDE ARAÚJO DE MOURA
  * Author URI:      https://github.com/lucaskennde
  * Text Domain:     filter-custom-class

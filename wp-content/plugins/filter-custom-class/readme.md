@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
 # Descrição
-## A classe addCustomClassToTagParagraphs permite adicionar uma classe CSS personalizada a todas as tags <p> (parágrafos) dentro do conteúdo de um post ou página do WordPress. Isso é útil quando você deseja aplicar um estilo específico aos parágrafos em todo o conteúdo, sem precisar alterar manualmente o HTML.
+## Este plugin permite adicionar uma classe CSS personalizada a todas as tags <p> (parágrafos) dentro do conteúdo de um post ou página do WordPress. Isso é útil quando você deseja aplicar um estilo específico aos parágrafos em todo o conteúdo, sem precisar alterar manualmente o HTML.
 
 # Funcionalidade
 ## A classe permite configurar uma classe CSS personalizada para ser adicionada automaticamente a todas as tags <p> no conteúdo de posts ou páginas.

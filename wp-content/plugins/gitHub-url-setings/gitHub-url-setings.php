@@ -3,7 +3,7 @@
 /**
  * Plugin Name:     GitHub Url Setings
  * Plugin URI:      https://github.com/lucaskennde/skills-wordpress
- * Description:     PLUGIN DESCRIPTION HERE
+ * Description:     Este plugin permite que os administradores do WordPress adicionem uma URL personalizada do GitHub na página de configurações do painel administrativo. A URL fornecida é salva nas opções do WordPress e, em seguida, inserida automaticamente como uma meta tag no <head> de todas as páginas do site. Isso é útil para verificar habilidades ou associar um perfil GitHub à página web, facilitando a integração de dados de perfil de desenvolvedores e projetos.
  * Author:          LUCAS KENNDE ARAÚJO DE MOURA
  * Author URI:      https://github.com/lucaskennde
  * Text Domain:     gitHub-url-setings
