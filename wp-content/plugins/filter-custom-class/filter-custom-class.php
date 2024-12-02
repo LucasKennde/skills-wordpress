@@ -10,6 +10,7 @@
  * Domain Path:     /languages
  * Version:         0.1.0
  * Requires PHP:    7.4
+ * 
  * @package         Filter_Custom_Class
  */
 
