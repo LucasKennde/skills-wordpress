@@ -24,6 +24,7 @@ class GitHubUrlSettings
     {
         add_action('admin_menu', [$this, 'add_admin_page']);
         add_action('admin_init', [$this, 'register_settings']); // Registra as opções de configurações
+        add_action('wp_head', [$this, 'add_github_url_meta']); // Adiciona a meta tag no head
     }
 
     // Funçõa para adicionar a página ao menu de configurações
@@ -75,6 +76,13 @@ class GitHubUrlSettings
     public function render_github_url_field()
     {
         echo '<input type="url" name="github_url" value="' . esc_attr(get_option('github_url')) . '" class="regular-text" />';
+    }
+    public function add_github_url_meta()
+    {
+        $github_url = get_option('github_url');
+        if ($github_url) {
+            echo '<meta name="verify-skills" content="' . esc_url($github_url) . '" />' . "\n";
+        }
     }
 }
 

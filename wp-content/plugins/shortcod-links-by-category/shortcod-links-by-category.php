@@ -23,8 +23,8 @@ class postsByCategory
     }
     public function render_posts()
     {
-        if (!is_singular('post')) return '';
-
+        if (!is_singular('posts')) return ''; //Verifica se tem posts
+        echo "<script>alert('deu bom não')</script>";
         $categories = get_the_category();
         if (empty($categories)) return '';
 
@@ -37,8 +37,8 @@ class postsByCategory
             'orderby' => 'date',
             'order' => 'DESC',
         ];
-        $query = new WP_Query($args);
 
+        $query = new WP_Query($args);
         if (!$query->have_posts()) return '';
 
         $output = '<h3>Mais Artigos</h3>';
